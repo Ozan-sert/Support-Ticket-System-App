@@ -6,11 +6,7 @@ The app allows the user to register (registration without having to confirm an e
 
 When creating an account (and logging in), I added a validation process. Also The account is added to the database (password is hashed using bcrypt.js and then saved to the database) - not only is the account added to the database, but also tickets etc. I also used a JWT with a specific expiry time and localStorage to handle the login.
 
-## [Live Demo]
-
-<p>Will be added in the future!</p>
-<p>Moving from Heroku to another hosting website...</p>
-<p>Screenshots as a preview.</p>
+## [Live Demo](https://www.supportsysapp.xyz/)
 
 ## Technologies Used
 

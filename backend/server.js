@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+const cors = require('cors')
 require('colors')
 require('dotenv').config()
 const { errorHandler } = require('./middleware/errorMiddleware')
@@ -10,6 +11,7 @@ connectDB()
 
 const app = express()
 
+app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
